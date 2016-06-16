@@ -1,0 +1,16 @@
+---
+# Someone needs to rewrite all my shit css.
+---
+
+@charset "utf-8";
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "social-links"
+;

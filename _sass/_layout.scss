@@ -1,0 +1,21 @@
+/**
+ * 1. Remove phantom whitespace under images.
+ */
+.photo-profile {
+  width:  128px;
+  height: 128px;
+  border-radius: 100%;
+  vertical-align: middle; /* [1] */
+
+  @media screen and (min-width: 45em) {
+    width:  150px;
+    height: 150px;
+  }
+}
+
+.page-content {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}

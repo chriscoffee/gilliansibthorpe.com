@@ -1,0 +1,62 @@
+/**
+ * Quick and dirty reset to normalise basic styles.
+ */
+* {
+  margin:  0;
+  padding: 0;
+  list-style: none;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+/**
+ * Share common styles across selectors.
+ */
+h1, h2,
+.photo-profile {
+  margin-bottom: 10px;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 3%;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+  /**
+   * Increase font size across entire page on larger screens.
+   */
+  @media screen and (min-width: 45em) {
+    html {
+      font-size: 24px;
+    }
+  }
+
+h1, h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+  @media screen and (min-width: 45em) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+
+a {
+  color: #00858a;
+  text-decoration: none;
+}
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
