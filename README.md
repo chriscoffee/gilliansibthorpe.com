@@ -29,4 +29,4 @@ Visit http://127.0.0.1:4000 and you should see your page.
 
 ## Screenshot
 
-![Screenshot](https://www.dropbox.com/s/2dltoi3bcih3l05/Screenshot%202016-06-16%2008.26.50.png?dl=0)
+![Screenshot](assets/screenshot.png)
