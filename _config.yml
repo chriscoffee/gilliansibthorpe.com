@@ -23,7 +23,7 @@ picture: 'assets/photo-me.jpg'
 
 # Build settings & some custom stuff.
 markdown: kramdown
-exclude: [README.md]
+exclude: [README.md, Rakefile]
 permalink: /blog/:year/:month/:day/:title
 permalink: /404.html
 sass:
